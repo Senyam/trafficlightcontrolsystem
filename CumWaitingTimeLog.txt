@@ -1,0 +1,39 @@
+1114 47677.0 -> statisch 33sec grün
+1114 47677.0 42.79802513464991 96337.13 86.47857271095152 -> statisch 33sec grün
+
+
+1114 26005.0 23.343806104129264 -> dynamisch mit 66 sec Grünintervallen
+1114 30583.0 27.453321364452425 -> dynamisch mit 75 sec Grünintervallen
+1114 27688.0 24.854578096947936 -> dynamisch mit 55 sec Grünintervallen
+1114 26005.0 23.343806104129264 67994.79999999997 61.03662477558346 -> dynamisch mit 66 sec Grünintervallen
+
+
+1114 33086.0 29.700179533213646 -> individuell mit 30 sec Grünintervallen und 400m
+
+1114 30904.0 27.741472172351884 -> individuell mit 30 sec Grünintervallen und dynamische Distanz
+
+1114 29245.0 26.252244165170556 -> individuell mit 30 sec Grünintervallen und dynamische Distanz und optimaler Entscheidungsfindung
+1114 29245.0 26.252244165170556 69926.05 62.77024236983842 -> individuell mit 30 sec Grünintervallen und dynamische Distanz und optimaler Entscheidungsfindung
+
+1114 40726.0 36.558348294434474 83922.94000000002 75.33477558348297 -> random q-Tabelle ohne reward system
+1114 54701.0 49.1032315978456 99674.87999999987 89.47475763016146 -> random q-Tabelle mit reward system und 50Autos/Sekunde als rewardgrenze
+1114 29245.0 26.252244165170556 69926.05 62.77024236983842 -> zeros q-Tabelle mit reward system und 50Autos/Sekunde als rewardgrenze
+
+1114 43415.0 38.9721723518851 85792.13000000009 77.01268402154408 -> random q-Tabelle mit reward system und 50Autos/Sekunde als rewardgrenze und verbesserter arrivalDistance
+
+3600 SEKUNDEN
+
+4517 449156.0 99.43679433252159 861911.3400000009 190.81499667921207 -> standard ampel
+4517 174944.0 38.730130617666596 354377.04000000015 78.45407128625197 -> random q-Tabelle mit reward system und 50Autos/Sekunde als rewardgrenze und verbesserter arrivalDistance
+
+#1
+4517 213272.0 47.215408456940445 399779.9299999999 88.505629842816 -> random q-Tabelle mit reward system und 50Autos/Sekunde als rewardgrenze und verbesserter arrivalDistance
+4517 193701.0 42.882665485942 374826.59000000096 82.9813128182424 -> mit q tabelle von vorheriger
+
+#900 sec
+QL with reward system (random Q):
+1114 44880.0 40.287253141831236 88804.11999999997 79.71644524236982
+QL with reward system (first Q):
+1114 50310.0 45.16157989228007 94148.97999999997 84.51434470377016
+QL with reward system (second Q):
+1114 50310.0 45.16157989228007 94148.97999999997 84.51434470377016
